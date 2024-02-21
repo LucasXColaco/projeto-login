@@ -26,9 +26,18 @@ main{
 
 section#login{
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
-    color: black;
+}
+
+section#login > div#imagem{
+    background: var(--lilas) url('../imagens/building.jpeg') no-repeat;
+    background-size: cover;
+    height: 200px;
 }
